@@ -6,7 +6,6 @@ import plotly.express as px
 import seaborn as sns
 import matplotlib.pyplot as plt
 import plotly.figure_factory as ff
-import scipy
 df = pd.read_csv('athlete_events.csv')
 re_df = pd.read_csv('noc_regions.csv')
 
